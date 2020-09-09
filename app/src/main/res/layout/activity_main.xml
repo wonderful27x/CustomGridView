@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.customgridview.WonderfulGridView
+        android:id="@+id/customGridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        app:column="4"
+        app:gapVertical="5dp"
+        app:gapHorizontal="5dp"
+        app:gridPadding="5dp"
+        app:responseMode="0"/>
+
+    <com.example.customgridview.WonderfulGridView
+        android:id="@+id/customGridView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        app:column="3"
+        app:gapVertical="5dp"
+        app:gapHorizontal="5dp"
+        app:gridPadding="5dp"
+        app:responseMode="1"
+        app:selectTextColor="#FFF"
+        app:defaultTextColor="#333333"
+        app:selectDrawable="@drawable/oval_background_blue"
+        app:defaultDrawable="@drawable/oval_background_gray"/>
+
+    <com.example.customgridview.WonderfulGridView
+        android:id="@+id/customGridView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        app:column="2"
+        app:gapVertical="5dp"
+        app:gapHorizontal="5dp"
+        app:gridPadding="5dp"
+        app:responseMode="2"
+        app:selectTextColor="#FFF"
+        app:defaultTextColor="#333333"
+        app:selectDrawable="@drawable/oval_background_blue"
+        app:defaultDrawable="@drawable/oval_background_gray"/>
+
+    <com.example.customgridview.WonderfulGridView
+        android:id="@+id/customGridView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        app:column="3"
+        app:gapVertical="5dp"
+        app:gapHorizontal="5dp"
+        app:gridPadding="5dp"
+        app:responseMode="2"
+        app:selectTextColor="#FFF"
+        app:defaultTextColor="#333333"
+        app:selectDrawable="@drawable/oval_background_blue"
+        app:defaultDrawable="@drawable/oval_background_gray"/>
+
+    <com.example.customgridview.TabContentGridView
+        android:id="@+id/tabContentGridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:column="4"
+        app:gapVertical="5dp"
+        app:gapHorizontal="5dp"
+        app:gridPadding="5dp"
+        app:responseMode="1"
+        app:defaultDividerColor="@color/colorAccent"
+        app:selectTextColor="#FFF"
+        app:defaultTextColor="#333333"
+        app:selectDrawable="@drawable/oval_right_background_blue"
+        app:defaultDrawable="@drawable/oval_right_background_gray"
+        app:tabSelectDrawable="@drawable/oval_left_background_blue"
+        app:tabDefaultDrawable="@drawable/oval_left_background_gray"/>
+
+</LinearLayout>

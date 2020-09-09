@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义gridView的自定义属性-->
+    <declare-styleable name="wonderfulGridViewStyle">
+        <attr name="responseMode" format="integer"/>
+
+        <attr name="column" format="integer"/>
+        <attr name="gapVertical" format="dimension"/>
+        <attr name="gapHorizontal" format="dimension"/>
+
+        <attr name="leftPadding" format="dimension"/>
+        <attr name="rightPadding" format="dimension"/>
+        <attr name="topPadding" format="dimension"/>
+        <attr name="bottomPadding" format="dimension"/>
+        <attr name="gridPadding" format="dimension"/>
+
+        <attr name="selectDrawable" format="reference"/>
+        <attr name="defaultDrawable" format="reference"/>
+        <attr name="tabSelectDrawable" format="reference"/>
+        <attr name="tabDefaultDrawable" format="reference"/>
+
+        <attr name="selectColor" format="color"/>
+        <attr name="defaultColor" format="color"/>
+        <attr name="colorSelector" format="reference"/>
+
+        <attr name="selectTextColor" format="color"/>
+        <attr name="defaultTextColor" format="color"/>
+
+        <attr name="selectDividerColor" format="color"/>
+        <attr name="defaultDividerColor" format="color"/>
+
+        <attr name="gridTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
